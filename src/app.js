@@ -33,7 +33,7 @@ function validateRepositoryId(request, response, next) {
   return next();
 }
 
-app.use(logRequet);
+//app.use(logRequet);
 
 app.get("/repositories", (request, response) => {
   return response.json(repositories);
